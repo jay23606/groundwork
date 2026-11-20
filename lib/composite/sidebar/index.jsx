@@ -152,6 +152,7 @@ function Sidebar({
         <div className="gw:w-full gw:m-auto gw:flex gw:justify-between gw:items-center gw:gap-2">
           <Dropdown
             className={"gw:w-5/6 gw:m-auto"}
+            aria-label={title}
             value={selectedPath}
             onChange={(e) => {
               mobileNav.current.href = e.target.value;

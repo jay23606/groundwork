@@ -63,6 +63,7 @@ function Header({ links, title, subtitle, navRight, fluidNav, homeUrl }) {
                   style="plain"
                   color="white"
                   className="gw:md:hidden"
+                  aria-label="Open menu"
                   onClick={() => {
                     setShowOverlayLinks(true);
                   }}
